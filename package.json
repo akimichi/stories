@@ -1,0 +1,26 @@
+{
+  "name": "stories",
+  "version": "0.1.0",
+  "description": "自作の短編小説集",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akimichi/stories.git"
+  },
+  "keywords": [
+    "short",
+    "stories"
+  ],
+  "author": "Akimichi Tatsukawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akimichi/stories/issues"
+  },
+  "homepage": "https://github.com/akimichi/stories#readme",
+  "dependencies": {
+    "md-to-pdf": "^5.1.0"
+  }
+}

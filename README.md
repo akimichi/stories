@@ -1,2 +1,12 @@
-# stories
-自作の短編小説
+---
+title: 'README'
+author: 'Akimichi Tatsukawa'
+date: \the\year/\the\month/\the\day
+---
+
+# 自作の短編小説
+
+
+
+
+
