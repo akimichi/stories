@@ -5,13 +5,23 @@ date: \the\year/\the\month/\the\day
 status: complete
 pdf_options:
   format: A4
-  margin: 30mm 20mm
-  displayHeaderFooter: true
+  margin: 30mm 40mm
+  printBackground: true
+  headerTemplate: |-
+      <style>
+        section {
+          margin: 0 auto;
+          font-family: system-ui;
+          font-size: 14px;
+        }
+      </style>
+      <section>
+        <span class="title"></span>
+      </section>
   footerTemplate: |-
     <section>
       <div>
-        Page <span class="pageNumber"></span>
-        of <span class="totalPages"></span>
+        <span class="pageNumber"></span> / <span class="totalPages"></span>
       </div>
     </section>
 ---
@@ -26,6 +36,7 @@ pdf_options:
   <strong>ある約束</strong>
 </div>
 
+<br/>
 
 初雪の降るころ、セルゲイは「待っていてくれ」とオルガに言い残して戦場に発った。
 
@@ -43,17 +54,12 @@ pdf_options:
 
 しんしんと雪が降りつづけるある日の夕方、一通の手紙が届いた。
 
-~~~
-親愛なるオルガ
-
-私は砲弾の破片を浴びて盲目となってしまった。もう君の笑顔を見ることはかなわない。
-
-私のことは死んだものと考えてくれ。
-
-この手紙は知人に綴ってもらった。 故郷へ帰る途中で投函してもらうから、探しても私はそこにはいない。
-
-君の幸せを願っている。
-~~~
+> 親愛なるオルガ
+> 
+> 私は砲弾の破片を浴びて盲目となってしまった。もう君の笑顔を見ることはかなわない。
+> 私のことは死んだものと考えてくれ。
+> この手紙は知人に綴ってもらった。 故郷へ帰る途中で投函してもらうから、探しても私はそこにはいない。
+> 君の幸せを願っている。
 
 オルガは読み終る間もなく、消印の記された東の町へ旅立った。
 
@@ -63,7 +69,11 @@ pdf_options:
 
 大地からフキノトウの青葉が芽吹くころ、オルガはようやく顔をあげて立ちあがった。そして叔母の勧めで隣町に住む大工のもとに嫁いだ。
 
+<br/>
+
 ***
+
+<br/>
 
 夫は物静かで仕事熱心な職人だった。
 
@@ -87,7 +97,11 @@ pdf_options:
 
 そして若いころに学んだ裁縫で仕立屋を始め、毎晩遅くまでミシンを踏みつづけた。
 
+<br/>
+
 ***
+
+<br/>
 
 オルガは来る日も来る日も働きつづけ、数十年の歳月が夢のように流れた。
 
@@ -103,7 +117,7 @@ pdf_options:
 
 その目も最近ではぼんやりとしか見えなくなり、いつもストーブのそばで暖をとる日々を送っていた。
 
-***
+<br/>
 
 寒さの緩んだある冬の日、春に結婚を控えた孫娘がオルガのもとを訪れた。
 
