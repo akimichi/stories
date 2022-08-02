@@ -3,11 +3,35 @@ title:  "架空の症例(エピソード2)"
 excerpt: "「電車に乗ると息ができないほど苦しくなる」"
 description: "パニック障害を架空の事例で表現する"
 date:   2017-12-19 
+pdf_options:
+  format: A4
+  margin: 30mm 40mm
+  printBackground: true
+  headerTemplate: |-
+      <style>
+        section {
+          margin: 0 auto;
+          font-family: system-ui;
+          font-size: 14px;
+        }
+      </style>
+      <section>
+        <span class="title"></span>
+      </section>
+  footerTemplate: |-
+    <section>
+      <div>
+        <span class="pageNumber"></span> / <span class="totalPages"></span>
+      </div>
+    </section>
 ---
 
-## エピソード2 「電車に乗ると息ができないほど苦しくなる」
+<div style="text-align: center;">
+  <strong>エピソード2 「電車に乗ると息ができないほど苦しくなる」</strong>
+</div>
 
-<h3>症例</h3>
+<br/>
+
 
 
 **美咲**、25歳女性。宮城県の郊外に住む会社員。

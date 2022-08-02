@@ -1,7 +1,6 @@
 ---
 title: 'ある約束'
 author: 'Akimichi Tatsukawa'
-date: \the\year/\the\month/\the\day
 status: complete
 pdf_options:
   format: A4

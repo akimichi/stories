@@ -3,15 +3,34 @@ title:  "架空の症例(エピソード1)"
 excerpt: "「月曜の朝、仕事に行くと思うと憂うつになる」"
 description: "職場ストレスによる抑うつ状態を架空の事例で表現する"
 date:   2017-12-11
+pdf_options:
+  format: A4
+  margin: 30mm 40mm
+  printBackground: true
+  headerTemplate: |-
+      <style>
+        section {
+          margin: 0 auto;
+          font-family: system-ui;
+          font-size: 14px;
+        }
+      </style>
+      <section>
+        <span class="title"></span>
+      </section>
+  footerTemplate: |-
+    <section>
+      <div>
+        <span class="pageNumber"></span> / <span class="totalPages"></span>
+      </div>
+    </section>
 ---
 
-## エピソード1 「月曜の朝、仕事に行くと思うと憂うつになる」
+<div style="text-align: center;">
+  <strong>エピソード1 「月曜の朝、仕事に行くと思うと憂うつになる」 </strong>
+</div>
 
-メンタルヘルス領域での架空の症例を連載します。
-ある程度まで集まったら独立したページにまとめます。
-まずは、企業が集まる都会で起りうるケースです。
-
-<h3>症例</h3>
+<br/>
 
 
 **香織**(仮称)、30歳女性。10年前に岩手県から出てきて仙台市内の企業に就職した。

@@ -3,11 +3,35 @@ title:  "架空の症例(エピソード3)"
 excerpt: "「こんなにつらい人生ならば、死んでしまいたい」"
 description: "大うつ病を架空の事例で表現する"
 date:   2017-12-26
+pdf_options:
+  format: A4
+  margin: 30mm 40mm
+  printBackground: true
+  headerTemplate: |-
+      <style>
+        section {
+          margin: 0 auto;
+          font-family: system-ui;
+          font-size: 14px;
+        }
+      </style>
+      <section>
+        <span class="title"></span>
+      </section>
+  footerTemplate: |-
+    <section>
+      <div>
+        <span class="pageNumber"></span> / <span class="totalPages"></span>
+      </div>
+    </section>
 ---
 
-## エピソード3 「こんなにつらい人生ならば、死んでしまいたい」
+<div style="text-align: center;">
+  <strong>エピソード3 「こんなにつらい人生ならば、死んでしまいたい」</strong>
+</div>
 
-<h3>症例</h3>
+<br/>
+
 
 
 **健一**、53歳男性。地方公務員。
