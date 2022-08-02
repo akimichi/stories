@@ -7,17 +7,6 @@ pdf_options:
   format: A4
   margin: 30mm 20mm
   displayHeaderFooter: true
-  headerTemplate: |-
-    <style>
-      section {
-        margin: 0 auto;
-        font-family: system-ui;
-        font-size: 11px;
-      }
-    </style>
-    <section>
-      <span class="date"></span>
-    </section>
   footerTemplate: |-
     <section>
       <div>

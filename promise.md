@@ -7,17 +7,6 @@ pdf_options:
   format: A4
   margin: 30mm 20mm
   displayHeaderFooter: true
-  headerTemplate: |-
-    <style>
-      section {
-        margin: 0 auto;
-        font-family: system-ui;
-        font-size: 11px;
-      }
-    </style>
-    <section>
-      <span class="date"></span>
-    </section>
   footerTemplate: |-
     <section>
       <div>
@@ -26,8 +15,17 @@ pdf_options:
       </div>
     </section>
 ---
+<style>  
+  .page-break {  
+    opacity: 0;  
+    break-after: page;  
+  }  
+</style>
 
-# ある約束
+<div style="text-align: center;">
+  <strong>ある約束</strong>
+</div>
+
 
 初雪の降るころ、セルゲイは「待っていてくれ」とオルガに言い残して戦場に発った。
 
@@ -65,11 +63,7 @@ pdf_options:
 
 大地からフキノトウの青葉が芽吹くころ、オルガはようやく顔をあげて立ちあがった。そして叔母の勧めで隣町に住む大工のもとに嫁いだ。
 
-\begin{center}
-\begin{verbatim}
-                  *                         *
-\end{verbatim}
-\end{center}
+***
 
 夫は物静かで仕事熱心な職人だった。
 
@@ -93,11 +87,7 @@ pdf_options:
 
 そして若いころに学んだ裁縫で仕立屋を始め、毎晩遅くまでミシンを踏みつづけた。
 
-\begin{center}
-\begin{verbatim}
-                  *                         *
-\end{verbatim}
-\end{center}
+***
 
 オルガは来る日も来る日も働きつづけ、数十年の歳月が夢のように流れた。
 
@@ -113,11 +103,7 @@ pdf_options:
 
 その目も最近ではぼんやりとしか見えなくなり、いつもストーブのそばで暖をとる日々を送っていた。
 
-\begin{center}
-\begin{verbatim}
-                  *                         *
-\end{verbatim}
-\end{center}
+***
 
 寒さの緩んだある冬の日、春に結婚を控えた孫娘がオルガのもとを訪れた。
 
